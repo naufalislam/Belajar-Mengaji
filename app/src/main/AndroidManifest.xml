@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.pale.belajarmengaji">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat.DayNight.NoActionBar">
+        <activity
+            android:name=".SplashActivity"
+            android:screenOrientation="landscape">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".BelajarActivity"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".HijaiyahActivity"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".HarokatActivity"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".HarokatFathahActivity"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".HarokatKasrohActivity"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".HarokatDomahActivity"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".TanwinActivity"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".TanwinFathahActivity"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".TanwinKasrahActivity"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".TanwisnDomahActivity"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".KuisActivity"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".KuisTebakHijaiyahActivity"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".KuisTebakHarokatActivity"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".KuisTebakTanwinActivity"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".KuisTebakBacaanActivity"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".KuisTebakBacaanTanwinActivity"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".KuisTebakBacaanHarokatActivity"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".KuisTebakBacaanHijaiyahActivity"
+            android:screenOrientation="landscape" />
+        <activity android:name=".MainActivity" android:screenOrientation="landscape"></activity>
+    </application>
+
+</manifest>

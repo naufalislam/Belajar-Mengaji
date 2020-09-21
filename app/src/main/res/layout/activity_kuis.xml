@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bgd"
+    tools:context=".KuisActivity">
+
+    <HorizontalScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="30dp"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageButton
+                android:id="@+id/menu_kuis_hijaiyah"
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:background="@drawable/menu_hijaiyah1" />
+
+            <ImageButton
+                android:id="@+id/menu_kuis_harokat"
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:background="@drawable/menu_kuis_harkat" />
+
+            <ImageButton
+                android:id="@+id/menu_kuis_tanwin"
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:background="@drawable/menu_kuis_tanwin" />
+
+            <ImageButton
+                android:id="@+id/menu_kuis_bacaan"
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:background="@drawable/menu_kuis_bacaan" />
+
+        </LinearLayout>
+    </HorizontalScrollView>
+    <ImageButton
+        android:id="@+id/buttonAbout"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:background="@drawable/about"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        />
+
+    <ImageButton
+        android:id="@+id/buttonExit"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:background="@drawable/exit"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"/>
+
+</RelativeLayout>

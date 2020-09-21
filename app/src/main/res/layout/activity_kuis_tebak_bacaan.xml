@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bgd"
+    tools:context=".KuisTebakBacaanActivity">
+
+    <HorizontalScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="30dp"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageButton
+                android:id="@+id/kuis_bacaan_hijaiyah"
+                android:layout_width="190dp"
+                android:layout_height="190dp"
+                android:background="@drawable/menu_tebak_hijaiyah" />
+
+            <ImageButton
+                android:id="@+id/kuis_bacaan_harokat"
+                android:layout_width="190dp"
+                android:layout_height="190dp"
+                android:background="@drawable/menu_tebak_harokat" />
+
+            <ImageButton
+                android:id="@+id/kuis_bacaan_tanwin"
+                android:layout_width="190dp"
+                android:layout_height="190dp"
+                android:background="@drawable/menu_tebak_tanwin" />
+
+        </LinearLayout>
+    </HorizontalScrollView>
+
+    <ImageButton
+        android:id="@+id/buttonAbout"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:background="@drawable/about"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        />
+
+    <ImageButton
+        android:id="@+id/buttonExit"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:background="@drawable/exit"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"/>
+
+</RelativeLayout>

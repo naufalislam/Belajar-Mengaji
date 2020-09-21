@@ -1,0 +1,311 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bgd"
+    tools:context=".HarokatFathahActivity">
+
+    <HorizontalScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scrollbars="none"
+        android:scrollbarAlwaysDrawVerticalTrack="false"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true">
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/fatah_ya"
+                android:layout_gravity="center"
+                android:background="@drawable/fatah_ya"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true" />
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/fatah_haa"
+                android:layout_gravity="center"
+                android:background="@drawable/fatah_haa"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true" />
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/fatah_wa"
+                android:layout_gravity="center"
+                android:background="@drawable/fatah_wa"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true" />
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/fatah_na"
+                android:layout_gravity="center"
+                android:background="@drawable/fatah_nun"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true" />
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/fatah_ma"
+                android:layout_gravity="center"
+                android:background="@drawable/fatah_mim"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true" />
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/fatah_la"
+                android:layout_gravity="center"
+                android:background="@drawable/fatah_lam"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true" />
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/fatah_ka"
+                android:layout_gravity="center"
+                android:background="@drawable/fatah_ka"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true" />
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/fatah_qa"
+                android:layout_gravity="center"
+                android:background="@drawable/fatah_qo"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true" />
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/fatah_fa"
+                android:layout_gravity="center"
+                android:background="@drawable/fatah_fa"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true" />
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/fatah_gha"
+                android:layout_gravity="center"
+                android:background="@drawable/fatah_gho"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true" />
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/fatah_aa"
+                android:layout_gravity="center"
+                android:background="@drawable/fatah_aa"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true" />
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/fatah_dzaa"
+                android:layout_gravity="center"
+                android:background="@drawable/fatah_dzo"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true" />
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/fatah_tha"
+                android:layout_gravity="center"
+                android:background="@drawable/fatah_tho"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true" />
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/fatah_dha"
+                android:layout_gravity="center"
+                android:background="@drawable/fatah_dho"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true" />
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/fatah_sha"
+                android:layout_gravity="center"
+                android:background="@drawable/fatah_sho"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true" />
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/fatah_sya"
+                android:layout_gravity="center"
+                android:background="@drawable/fatah_sya"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true" />
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/fatah_sa"
+                android:layout_gravity="center"
+                android:background="@drawable/fatah_sa"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true" />
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/fatah_za"
+                android:layout_gravity="center"
+                android:background="@drawable/fatah_za"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true" />
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/fatah_ra"
+                android:layout_gravity="center"
+                android:background="@drawable/fatah_ro"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true" />
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/fatah_dza"
+                android:layout_gravity="center"
+                android:background="@drawable/fatah_dza"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true" />
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/fatah_da"
+                android:layout_gravity="center"
+                android:background="@drawable/fatah_da"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true" />
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/fatah_kha"
+                android:layout_gravity="center"
+                android:background="@drawable/fatah_kha"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true" />
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/fatah_ha"
+                android:layout_gravity="center"
+                android:background="@drawable/fatah_ha"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true" />
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/fatah_ja"
+                android:layout_gravity="center"
+                android:background="@drawable/fatah_ja"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"  />
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/fatah_tsa"
+                android:layout_gravity="center"
+                android:background="@drawable/fatah_tsa"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true" />
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/fatah_ta"
+                android:layout_gravity="center"
+                android:background="@drawable/fatah_ta"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true" />
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/fatah_ba"
+                android:layout_gravity="center"
+                android:background="@drawable/fatah_ba"
+                android:clickable="true"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true" />
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/fatah_a"
+                android:clickable="true"
+                android:layout_gravity="center"
+                android:background="@drawable/fatah_a"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true" />
+
+        </LinearLayout>
+    </HorizontalScrollView>
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tampil_hijaiyah2"
+        android:src="@drawable/pop_fatah_a"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true" />
+
+    <ImageButton
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:id="@+id/help"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:background="@drawable/help"/>
+
+    <ImageButton
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:id="@+id/back"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:background="@drawable/back"/>
+
+</RelativeLayout>
